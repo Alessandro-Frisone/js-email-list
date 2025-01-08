@@ -22,3 +22,6 @@ h1{
     color: lightsalmon;
     border-radius: 15px;
 }
+ul{
+    line-height: 40px;
+}

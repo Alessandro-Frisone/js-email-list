@@ -11,7 +11,7 @@ function generate() {
         axios.get('https://flynn.boolean.careers/exercises/api/random/mail')
         .then(function (response) {
             emailArray.push(response.data.response)
-            emailListElm.innerHTML += `<li>${response.data.response}<li>`
+            emailListElm.innerHTML += `<li>${response.data.response}</li>`
         })
     }
 console.log(emailArray)
