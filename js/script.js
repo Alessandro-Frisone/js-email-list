@@ -14,15 +14,11 @@ function generate() {
             emailArray.push(response.data.response)
         })
     }
-    
 console.log(emailArray)
 }
 
 // EVENTS
-generateElm.addEventListener('click', generate() {
-    
-})
-
+generateElm.addEventListener('click', generate)
 
 
 
