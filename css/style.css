@@ -1,17 +1,24 @@
+html{
+    background-color: gray;
+}
 body{
     text-align: center;
+}
+h1{
+    color: lightsalmon;
 }
 .container{
     width: 255px;
     margin: 0 auto;
     border: 2px solid black;
     border-radius: 15px;
+    background-color: lightsalmon;
 }
 #generate-random{
     width: 75px;
     height: 25px;
     margin-top: 50px;
     background-color: black;
-    color: white;
+    color: lightsalmon;
     border-radius: 15px;
 }
